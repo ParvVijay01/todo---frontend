@@ -85,6 +85,7 @@ class _RegistrationState extends State<Registration> {
                   TextField(
                     controller: passwordController,
                     keyboardType: TextInputType.text,
+                    obscureText: true,
                     decoration: InputDecoration(
                         suffixIcon: IconButton(
                           icon: Icon(Icons.copy),

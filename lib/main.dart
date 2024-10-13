@@ -3,6 +3,7 @@ import 'package:jwt_decoder/jwt_decoder.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:todo/dashboard.dart';
 import 'package:todo/login_page.dart';
+import 'package:todo/registration.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
